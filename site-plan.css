@@ -5,11 +5,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2C1041;
+  --primary-color: #1D2CB2;
   --secondary-color: #BF1F64;
-  --accent1-color: #1D2CB2;
-  --accent2-color: #F5D544;
-  --accent3-color: #C9CBF8;
+  --accent1-color: #F5D544;
+  --accent2-color: #C9CBF8;
+  --accent3-color: #2C1041;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Montserret", sans-serif;
@@ -81,16 +81,17 @@ p {
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: var(--paragraph-color-on-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
-  color: var(--paragraph-color-on-color);
 }
 .accent2{
   background-color: var(--accent2-color);
 }
 .accent3{
   background-color: var(--accent3-color);
+  color: var(--paragraph-color-on-color);
 }
 
 p.colored {
