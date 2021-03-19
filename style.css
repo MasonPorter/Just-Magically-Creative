@@ -10,6 +10,9 @@ figure, figcaption, footer, header, nav, section {
 }
 
 body {
+  /*background-image: url("images/MagicBackground.png");*/
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #2C1041;
   color: white;
 }
@@ -19,6 +22,7 @@ body {
   margin-right: 10%;
 }
 
+/*-----Header CSS-----*/
 header.header_framework {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -31,13 +35,13 @@ h1 {
   grid-row: 4/6;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 5.2em;
+  font-size: 5.5em;
 }
 
 img.header_img {
   grid-column: 5/7;
-  grid-row: 3/6;
-  width:100%;
+  grid-row: 3/7;
+  height:100%;
 }
 
 nav.nav_framework {
@@ -64,9 +68,72 @@ span.nav_icon {
   font-size: 2em;
   cursor: pointer
 }
+/*-----End Header CSS-----*/
 
-/* Note: Build site on 7 columns*/
+/*-----Head Framework CSS-----*/
+section.magic_head_framework {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 100vh;
+}
 
+.magic_head_framework h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+
+.magic_head_framework p {
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  text-align: right;
+}
+
+p#head_para_one {
+  grid-column: 5/7;
+  grid-row: 3/4;
+}
+
+p#head_para_two {
+  grid-column: 5/7;
+  grid-row: 4/5;
+}
+/*-----End Head Framework CSS-----*/
+
+/*-----Secondary Framework CSS-----*/
+section.magic_secondary_framework {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.magic_secondary_framework h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.magic_secondary_framework p {
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+/*-----End Secondary Framework CSS-----*/
+
+
+
+
+
+
+
+
+
+
+/*-----Animated Nav CSS-----*/
 .overlay {
   height: 100%;
   width: 0;
