@@ -58,6 +58,13 @@ a.logo {
   font-weight: 800;
   font-size: 1.8em;
   color: white;
+  text-decoration: none;
+}
+
+a.logo:hover {
+  color: #f5d544;
+  text-decoration: underline;
+  text-decoration-color: #f5d544;
 }
 
 span.nav_icon {
@@ -288,6 +295,8 @@ hr {
 }
 
 .overlay-content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   position: relative;
   top: 25%;
   width: 100%;
@@ -296,16 +305,19 @@ hr {
 }
 
 .overlay a {
-  padding: 8px;
+  padding: 14px;
   text-decoration: none;
-  font-size: 36px;
-  color: #818181;
+  text-decoration-color: transparent;
+  font-size: 4.5em;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #f5d544;
+  text-decoration: underline;
+  text-decoration-color: #f5d544;
 }
 
 .overlay .closebtn {
