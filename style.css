@@ -24,27 +24,28 @@ body {
 /*-----Header CSS-----*/
 header.header_framework {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   grid-template-rows: 60px repeat(6, 1fr);
   height: 100vh;
 }
 
 h1 {
-  grid-column: 1/3;
+  grid-column: 1/4;
   grid-row: 4/6;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 5.5em;
+  font-size: 6em;
 }
 
 img.header_img {
-  grid-column: 4/6;
+  grid-column: 7/10;
   grid-row: 3/7;
-  height:100%;
+  max-width: 100%;
+  max-height: inherit;
 }
 
 nav.nav_framework {
-  grid-column: 1/7;
+  grid-column: 1/10;
   grid-row: 1;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -79,7 +80,7 @@ span.nav_icon {
 /*-----Head Framework CSS-----*/
 section.magic_head_framework {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(6, 1fr);
   height: 100vh;
 }
@@ -87,25 +88,29 @@ section.magic_head_framework {
 .magic_head_framework h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3em;
-  grid-column: 1/3;
+  font-size: 3.5em;
+  grid-column: 1/4;
   grid-row: 2/4;
+}
+
+span.yellow_text {
+  color: #f5d544;
 }
 
 .magic_head_framework p {
   font-family: "Hind", sans-serif;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.8em;
   text-align: right;
 }
 
 p#head_para_one {
-  grid-column: 4/6;
+  grid-column: 7/10;
   grid-row: 3/4;
 }
 
 p#head_para_two {
-  grid-column: 4/6;
+  grid-column: 7/10;
   grid-row: 4/5;
 }
 /*-----End Head Framework CSS-----*/
@@ -113,61 +118,64 @@ p#head_para_two {
 /*-----Secondary Framework CSS-----*/
 section.magic_secondary_framework {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(11, 10.6em);
 }
 
 .magic_secondary_framework h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .magic_secondary_framework p {
   font-family: "Hind", sans-serif;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 h2#secondary_h2 {
-  grid-column: 4/6;
+  grid-column: 7/10;
   grid-row: 1/3;
   text-align: right;
 }
 
 p#secondary_para_one {
-  grid-column: 1/3;
-  grid-row: 2/3;
+  grid-column: 1/4;
+  grid-row: 2/4;
 }
 
 p#secondary_para_two {
-  grid-column: 1/3;
-  grid-row: 3/4;
+  grid-column: 1/4;
+  grid-row: 4/6;
 }
 
 img.work_images {
-  grid-column: 3/6;
-  grid-row: 3/7;
-  height: 100%;
+  grid-column: 6/10;
+  grid-row: 5/8;
+  max-width: 100%;
+  max-height: inherit;
 }
 
+.work_example_grid {
+  grid-column: 1/3;
+  grid-row: 7/12;
+} 
+
 h2#secondary_type_h2 {
-  grid-column: 1/2;
-  grid-row: 5/6;
+  padding-bottom: .6em;
   color: #f5d544
 }
 
 .magic_secondary_framework ul {
   color: white;
   font-family: "Hind", sans-serif;
-  font-size: 1.4em;
-  grid-column: 1/2;
-  grid-row: 6/8;
+  font-size: 1.8em;
+  padding-left: 1.2em;
 }
 
 button.button_style {
-  grid-column: 1/2;
-  grid-row: 8/9;
+  margin-top: 2em;
   height: 3.7em;
   width: 180px;
   font-family: "Hind", sans-serif;
