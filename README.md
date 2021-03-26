@@ -2,13 +2,13 @@
 <img src="images/ShardofCreation.png" width=100px>
 </div>
 
-<h1 align=center>
+<h2 align=center>
 Just Magically Creative
-</h1>
-
-<h2>
-Welcome to the source of the Just Magically Creative site! Here you will find updates and future plans for development.
 </h2>
+
+<h3 align=center>
+&copy Copyright 2021. All Rights Reserved.
+</h3>
 
 ---
 ### Typography:
@@ -22,7 +22,7 @@ Welcome to the source of the Just Magically Creative site! Here you will find up
 ### Known Issues / To Do:
 - Spacing and sizing breaks down at small or wide resolutions
 - Need to unify social media icons and add Github link + icon
-- Figure out Favicon for webpage
+- :heavy_check_mark: Figure out Favicon for webpage
 - Develop robust background system for large and small screens
 - Contact form needs functionality
 - :heavy_check_mark: Verify that all documents and images don't have spaces in name and update as needed

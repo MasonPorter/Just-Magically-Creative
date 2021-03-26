@@ -16,7 +16,7 @@ body {
   color: white;
 }
 
-.creation_framework {
+.creation_framework { /*UNIVERSAL CODE*/
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -272,7 +272,7 @@ button#submit_form {
 /*-----End Contact Form CSS-----*/
 
 /*-----Footer Form CSS-----*/
-.footer_framework {
+.footer_framework { /*UNIVERSAL CODE*/
   display: grid;
   grid-template-columns: auto 160px;
   grid-template-rows: 70px;
@@ -280,29 +280,29 @@ button#submit_form {
   font-size: 1.4vw;
 }
 
-hr {
+hr { /*UNIVERSAL CODE*/
   border-color: white;
   margin-top: 1.5em;
 }
 
-.footer_framework p {
+.footer_framework p { /*UNIVERSAL CODE*/
   margin: auto 0;
 }
 
-.social {
+.social { /*UNIVERSAL CODE*/
   display: grid;
   justify-self: center;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto 0;
 }
 
-.social img {
+.social img { /*UNIVERSAL CODE*/
   height: 48px;
   padding: 3px;
 }
 /*-----End Footer Form CSS-----*/
 
-/*-----Animated Nav CSS-----*/
+/*-----Animated Nav CSS-----*/ /*UNIVERSAL CODE*/
 .overlay {
   height: 100%;
   width: 0;
