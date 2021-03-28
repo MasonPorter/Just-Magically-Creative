@@ -307,6 +307,8 @@ hr { /*UNIVERSAL CODE*/
 
 
 /*----- Studies Page CSS -----*/
+
+/*----- Header CSS-----*/
 header.studies_header_framework {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -333,7 +335,9 @@ h2.studiesHeader {
   text-align: center;
   margin: auto 0;
 }
+/*-----END Header CSS-----*/
 
+/*----- Main Content CSS-----*/
 section.studies_framework {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -387,7 +391,7 @@ section.studies_framework {
 }
 
 .studies_one_body, .studies_two_body, .studies_three_body {
-  grid-column: 1/5;
+  grid-column: 1/6;
   grid-row: 1/8;
   margin: auto 0;
   padding: 0px 3em;
@@ -397,13 +401,13 @@ section.studies_framework {
 p.studies_type, p.studies_info {
   font-family: "Hind", sans-serif;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
 }
 
 h3.studies_head {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 3vw;
+  font-size: 3.3vw;
 }
 
 button.studies_button {
@@ -457,18 +461,65 @@ img.studies_img_horizontal {
   position: relative;
   left: -50%;
 }
+/*-----END Main Content CSS-----*/
+
+/*-----Values Plug-----*/
+section.studies_values_plug {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  height: 50vh;
+}
 
 
+section.studies_values_plug h2 {
+  grid-column: 2/9;
+  grid-row: 2/4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 4vw;
+  text-align: center;
+  margin: auto 0;
+}
 
+section.studies_values_plug p {
+  grid-column: 2/9;
+  grid-row: 5/7;
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  text-align: center;
+  margin: auto 0;
+}
 
+section.studies_values_plug a{
+  grid-column: 5/6;
+  grid-row: 7/9;
+}
 
+button.button_style {
+  margin-top: 2em;
+  height: 3.7em;
+  width: 180px;
+  font-family: "Hind", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1em;
+  color: #f5d544;
+  padding-top: 2px;
+  border: 1.5px solid #f5d544;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+}
 
+button.button_style:hover {
+  transition-duration: 0.4s;
+  background-color: #f5d544;
+  color: #2C1041;
 
-
-
-
-
-
+}
+/*-----END Values Plug-----*/
 
 /*-----END Studies Page CSS -----*/
 
