@@ -4,25 +4,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/magicfavicon.png" sizes="16x16">
     <title>JMC - Just Magically Creative | Multi-disciplinary Creative Studio</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+    <div class="creation_framework">
+
     <header>
-      <nav>
-        <a href="index.html">JMC</a>
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <nav class="overlay-content">
-            <a href="studies.html">Studies</a>
-            <a href="values.html">Values</a>
-            <a href="site-plan.html">Site Plan</a>
-          </nav>
-        </div>
+      <nav class="nav_framework">
+        <a class="logo" href="index.html">JMC</a>
+        <span class="nav_icon" onclick="openNav()">&#9776;</span>
       </nav>
 
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> <!--remove CSS and add to style.css | Give its own class-->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <nav class="overlay-content">
+          <a href="studies.html">Studies</a>
+          <a href="values.html">Values</a>
+          <a href="site-plan.html">Site Plan</a>
+        </nav>
+      </div>
+
       <h1>It takes strong values to wield Magic</h1>
     </header>
     
@@ -74,6 +78,7 @@
 
     <footer>
       <hr>
+      <div class="footer_framework">
       <p>&copy; Copyright 2021 - JMC - Just Magically Creative</p>
       <div class="social">
         <a href="https://www.facebook.com" target="_blank"
@@ -92,6 +97,7 @@
             alt="YouTube"
         /></a>
       </div>
+    </div>
     </footer>
     <script>
       function openNav() {
@@ -102,6 +108,7 @@
         document.getElementById("myNav").style.width = "0%";
       }
     </script>
+    </div>
   </body>
 
 </html>
