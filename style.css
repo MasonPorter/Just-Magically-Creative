@@ -533,6 +533,64 @@ button.button_style:hover {
 
 /*-----END Studies Page CSS -----*/
 
+
+
+
+
+
+/*-----Values Page CSS -----*/
+header.header_values_framework {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 60px repeat(6, 1fr);
+  height: 100vh;
+}
+
+.header_values_framework h1{
+  grid-column: 1/5;
+  grid-row: 3/7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 4.8vw;
+  margin: auto 0;
+}
+
+img.header_values_img {
+  grid-column: 7/10;
+  grid-row: 3/7;
+  max-width: 100%;
+  max-height: inherit;
+}
+
+section.values_framework {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.values_framework h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+.values_framework p {
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+}
+
+h2.right_align, p.right_align {
+  text-align: right;
+}
+
+h2.point_one {
+  grid-column: 7/10;
+  grid-row: 1/2;
+}
+
+/*-----END Values Page CSS -----*/
+
 /*-----Animated Nav CSS-----*/ /*UNIVERSAL CODE*/
 .overlay {
   height: 100%;
