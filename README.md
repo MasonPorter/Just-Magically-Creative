@@ -2,13 +2,10 @@
 <img src="images/ShardofCreation.png" width=100px>
 </div>
 
-<h2 align=center>
-Just Magically Creative
-</h2>
-
-<p align=center>
+<h3 align=center>
+Just Magically Creative <br>
 &copy Copyright 2021. All Rights Reserved.
-</p>
+</h3>
 
 ---
 ### Known Issues Requiring Fix:
