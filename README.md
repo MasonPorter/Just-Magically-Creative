@@ -6,25 +6,21 @@
 Just Magically Creative
 </h2>
 
-<h3 align=center>
+<p align=center>
 &copy Copyright 2021. All Rights Reserved.
-</h3>
+</p>
 
 ---
-### Typography:
-![1/10 Typography](images/JMC_Typography.jpg "1/10 Typography")
-
-### Color Guidelines:
-![2/10 Typography](images/JMC_Color_Guidelines.jpg "2/10 Color Guidelines")
-
----
-
-### Known Issues / To Do:
-- Spacing and sizing breaks down at small or wide resolutions
-- Need to unify social media icons and add Github link + icon
+### Known Issues Requiring Fix:
+- Grids breaks down at small or wide resolutions
+- :heavy_check_mark: Fix images that have spaces in name
 - :heavy_check_mark: Figure out Favicon for webpage
-- Develop robust background system for large and small screens
+- Reducing the load time of background
+- Figure out \<!DOCTYPE HTML> breaking studies.html css for study images
+
+### To Do Items:
+- Need to unify social media icons designs
+- Add Github link at bottom of page
 - Contact form needs functionality
-- :heavy_check_mark: Verify that all documents and images don't have spaces in name and update as needed
-- Develop studies page
-- Develop values page
+- :heavy_check_mark: Develop studies.html page
+- Develop values.html page
