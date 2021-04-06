@@ -9,7 +9,7 @@ figure, figcaption, footer, header, nav, section {
 }
 
 body {
-  background-image: url("images/MagicBackground.png");
+  background-image: url("images/MagicBackground-min.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #2C1041;
