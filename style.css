@@ -208,6 +208,7 @@ section.contact_form_framework {
   border: 1.8px solid white;
   border-radius: 2px;
   padding: 2em 6em;
+  margin-top: 10vh;
 }
 
 section.contact_form_framework h2 {
@@ -565,13 +566,15 @@ img.header_values_img {
 section.values_framework {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(14, 22vh);
+  grid-row-gap: .7em;
 }
 
 .values_framework h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3vw;
+  padding-bottom: .5em;
 }
 
 .values_framework p {
@@ -580,13 +583,43 @@ section.values_framework {
   font-size: 1.5vw;
 }
 
-h2.right_align, p.right_align {
+.point_one {
+  grid-column: 6/10;
+  grid-row: 1/3;
   text-align: right;
 }
 
-h2.point_one {
-  grid-column: 7/10;
-  grid-row: 1/2;
+.point_two {
+  grid-column: 1/5;
+  grid-row: 3/5;
+}
+
+.point_three {
+  grid-column: 6/10;
+  grid-row: 5/7;
+  text-align: right;
+}
+
+.point_four {
+  grid-column: 1/5;
+  grid-row: 7/9;
+}
+
+.point_five {
+  grid-column: 6/10;
+  grid-row: 9/11;
+  text-align: right;
+}
+
+.point_six {
+  grid-column: 1/5;
+  grid-row: 11/13;
+}
+
+.point_seven {
+  grid-column: 6/10;
+  grid-row: 13/15;
+  text-align: right;
 }
 
 /*-----END Values Page CSS -----*/
