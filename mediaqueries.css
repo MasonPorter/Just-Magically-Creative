@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+    header.header_framework {
+        display: block;
+        height: 60vh;
+      }
+
+      .header_framework h1 {
+        font-size: 10vw;
+        text-align: center;
+        padding-top: 25%;
+      }
+
+      img.header_img {
+        width: 30vw;
+        display: block;
+        max-height: inherit;
+        padding-top: 3em;
+        margin: 0px auto;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
