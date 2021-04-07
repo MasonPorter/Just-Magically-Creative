@@ -9,11 +9,20 @@ figure, figcaption, footer, header, nav, section {
 }
 
 body {
+  background-color: #2C1041;
+  color: white;
+}
+
+.background_default {
   background-image: url("images/MagicBackground-scaled.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #2C1041;
-  color: white;
+}
+
+.background_values {
+  background-image: url("images/MagicBackground-values-scaled.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .creation_framework { /*UNIVERSAL CODE*/
@@ -29,12 +38,13 @@ header.header_framework {
   height: 100vh;
 }
 
-h1 {
+.header_framework h1 {
   grid-column: 1/4;
-  grid-row: 4/6;
+  grid-row: 3/7;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 5vw;
+  margin: auto 0;
 }
 
 img.header_img {
@@ -208,7 +218,10 @@ section.contact_form_framework {
   border: 1.8px solid white;
   border-radius: 2px;
   padding: 2em 6em;
-  margin-top: 10vh;
+}
+
+.extending_view {
+  margin-top: 6em;
 }
 
 section.contact_form_framework h2 {
@@ -567,7 +580,7 @@ section.values_framework {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(14, 22vh);
-  grid-row-gap: .7em;
+  grid-row-gap: .8em;
 }
 
 .values_framework h2 {
@@ -633,7 +646,7 @@ section.values_framework {
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(0,0,0, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
 }
