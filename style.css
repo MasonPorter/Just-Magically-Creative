@@ -516,7 +516,7 @@ section.studies_values_plug p {
   margin: auto 0;
 }
 
-section.studies_values_plug a{
+section.studies_values_plug form {
   grid-column: 5/6;
   grid-row: 7/9;
 }
