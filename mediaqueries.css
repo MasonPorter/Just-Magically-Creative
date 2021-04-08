@@ -1,13 +1,13 @@
 @media only screen and (max-width: 600px) {
     header.header_framework {
         display: block;
-        height: 50vh;
+        height: inherit;
         min-height: 430px;
       }
 
       .header_framework h1 {
-        font-size: 10vw;
-        text-align: center;
+        font-size: 15vw;
+        text-align: left;
         padding-top: 20%;
       }
 
@@ -15,7 +15,7 @@
         width: 45vw;
         display: block;
         max-width: 150px;
-        padding-top: 3em;
+        padding-top: 2em;
         margin: 0px auto;
       }
 
@@ -23,24 +23,27 @@
         padding-top: 1em;
       }
 
-      section.magic_head_framework {
+      a.logo {
+        font-size: 6vw;
+      }
+
+      section.magic_head_framework, section.magic_secondary_framework {
         display: block;
         height: inherit;
         min-height: 30vh;
       }
 
-      .magic_head_framework h2 {
+      .magic_head_framework h2, .magic_secondary_framework h2, h2#secondary_h2 {
         font-size: 6vw;
-        text-align: center;
-        padding-top: 20px;
-      }
-
-      .magic_head_framework p {
-        font-size: 3vw;
         text-align: center;
         padding-top: 2em;
       }
 
+      .magic_head_framework p, .magic_secondary_framework p {
+        font-size: 4vw;
+        text-align: left;
+        padding-top: 1.5em;
+      }
 
 
 
