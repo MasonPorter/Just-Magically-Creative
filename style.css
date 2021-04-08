@@ -249,13 +249,6 @@ form li + li {
   margin-top: 1.3em;
 }
 
-/* label {
-  display: inline-block;
-  width: 100px;
-  font-size: 1.4em;
-  text-align: left;
-} */
-
 ::placeholder {
   color: white;
   font-size: 1.3em;

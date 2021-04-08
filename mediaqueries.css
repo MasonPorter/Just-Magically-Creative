@@ -1,66 +1,120 @@
 @media only screen and (max-width: 600px) {
+   /*-----Header CSS-----*/   
     header.header_framework {
-        display: block;
-        height: inherit;
-        min-height: 430px;
-      }
+      display: block;
+      height: inherit;
+      min-height: 430px;
+    }
 
-      .header_framework h1 {
-        font-size: 15vw;
-        text-align: left;
-        padding-top: 20%;
-      }
+    .header_framework h1 {
+      font-size: 15vw;
+      text-align: left;
+      padding-top: 20%;
+    }
 
-      img.header_img {
-        width: 45vw;
-        display: block;
-        max-width: 150px;
-        padding-top: 2em;
-        margin: 0px auto;
-      }
+    img.header_img {
+      width: 45vw;
+      display: block;
+      max-width: 150px;
+      padding-top: 2em;
+      margin: 0px auto;
+    }
 
-      nav.nav_framework {
-        padding-top: 1em;
-      }
+    nav.nav_framework {
+      padding-top: 1em;
+    }
 
-      a.logo {
-        font-size: 6vw;
-      }
+    a.logo {
+      font-size: 6vw;
+    }
 
-      section.magic_head_framework, section.magic_secondary_framework {
-        display: block;
-        height: inherit;
-        min-height: 30vh;
-      }
+    /*-----END Header CSS-----*/
 
-      .magic_head_framework h2, .magic_secondary_framework h2, h2#secondary_h2 {
-        font-size: 6vw;
-        text-align: center;
-        padding-top: 2em;
-      }
+    section.magic_head_framework, section.magic_secondary_framework {
+      display: block;
+      height: inherit;
+      min-height: 30vh;
+    }
 
-      .magic_head_framework p, .magic_secondary_framework p {
-        font-size: 4vw;
-        text-align: left;
-        padding-top: 1.5em;
-      }
+    .magic_head_framework h2, .magic_secondary_framework h2, h2#secondary_h2 {
+      font-size: 6vw;
+      text-align: center;
+      padding-top: 2em;
+    }
 
+    .magic_head_framework p, .magic_secondary_framework p {
+      font-size: 4vw;
+      text-align: left;
+      padding-top: 1.5em;
+    }
 
+    #secondary_type_h2 {
+      text-align: left;
+      font-size: 5vh;
+    }
 
+    .magic_secondary_framework ul {
+      font-size: 5vw;
+      padding-left: 1.2em;
+    }
 
+    button.button_style {
+      margin-top: 2em;
+      height: 3.7em;
+      width: 150px;
+      text-align: center;
+      font-size: .8em;
+      color: #f5d544;
+      padding-top: 2px;
+    }
 
+    section.contact_form_framework {
+      min-height: 420px;
+      margin-top: 4em;
+      padding: 1em 2em;
+    }
 
+    section.contact_form_framework h2 {
+      font-size: 7vw;
+      text-align: center;
+    }
+    
+    section.contact_form_framework p {
+      font-size: 4vw;
+      text-align: center;
+    }
 
+    ::placeholder {
+      font-size: 1em;
+    }
 
+    input#name, input#mail {
+      width: 100%;
+    }
 
+    button#submit_form {
+      display: block;
+      margin: 0 auto;
+    }
 
+    /*-----Footer CSS-----*/
+    .footer_framework {
+      display: block;
+    }
 
+    .footer_framework p { 
+      text-align: center;
+      font-size: 3.5vw;
+    }
 
-
-
-
-
-
-
-
+    .social { 
+      justify-items: center;
+      margin: auto 0;
+    }
+    
+    .social img {
+      height: 40px;
+      padding: 3px 0px;
+      justify-self: center;
+    }
   }
