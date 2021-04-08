@@ -1,21 +1,44 @@
 @media only screen and (max-width: 600px) {
     header.header_framework {
         display: block;
-        height: 60vh;
+        height: 50vh;
+        min-height: 430px;
       }
 
       .header_framework h1 {
         font-size: 10vw;
         text-align: center;
-        padding-top: 25%;
+        padding-top: 20%;
       }
 
       img.header_img {
-        width: 30vw;
+        width: 45vw;
         display: block;
-        max-height: inherit;
+        max-width: 150px;
         padding-top: 3em;
         margin: 0px auto;
+      }
+
+      nav.nav_framework {
+        padding-top: 1em;
+      }
+
+      section.magic_head_framework {
+        display: block;
+        height: inherit;
+        min-height: 30vh;
+      }
+
+      .magic_head_framework h2 {
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 20px;
+      }
+
+      .magic_head_framework p {
+        font-size: 3vw;
+        text-align: center;
+        padding-top: 2em;
       }
 
 

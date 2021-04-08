@@ -12,7 +12,7 @@ Just Magically Creative <br>
 - Grids breaks down at small or wide resolutions
 - :heavy_check_mark: Fix images that have spaces in name
 - :heavy_check_mark: Figure out Favicon for webpage
-- Reducing the load time of background
+- :heavy_check_mark: Reducing the load time of background
 - Figure out \<!DOCTYPE HTML> breaking studies.html css for study images
 
 ### To Do Items:
@@ -20,4 +20,4 @@ Just Magically Creative <br>
 - Add Github link at bottom of page
 - Contact form needs functionality
 - :heavy_check_mark: Develop studies.html page
-- Develop values.html page
+- :heavy_check_mark: Develop values.html page
